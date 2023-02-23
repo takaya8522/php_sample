@@ -9,5 +9,9 @@ $p2 = new Person();
 $p2->lastName = '鈴木';
 $p2->firstName = '花子';
 
+$p3 = new Person();
+$p3->lastName = '佐藤';
+$p3->firstName = '健太';
+
 print "<p>僕の名前は{$p1->lastName}{$p1->firstName}です。</p>";
 print "<p>私の名前は{$p2->lastName}{$p2->firstName}です。</p>";
